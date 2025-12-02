@@ -1,3 +1,18 @@
+#galerie {
+    padding: 20px;
+}
+
+.galerie-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galerie-item {
+    text-align: center;
+}
+
 h1{
     color: aqua;
 }
+
