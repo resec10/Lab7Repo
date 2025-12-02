@@ -13,6 +13,57 @@
         <footer>
             <h1>Footer text</h1>
         </footer>
+        <section id="galerie">
+            <h2>Galerie</h2>
+            <p>Aruncă o privire peste câteva imagini reprezentative pentru
+                proiectul nostru.</p>
+
+            <div class="galerie-grid">
+                <figure class="galerie-item">
+                    <img src="https://via.placeholder.com/250x150"
+                        alt="Imagine 1 din galerie">
+                    <figcaption>Exemplu imagine 1</figcaption>
+                </figure>
+
+                <figure class="galerie-item">
+                    <img src="https://via.placeholder.com/250x150"
+                        alt="Imagine 2 din galerie">
+                    <figcaption>Exemplu imagine 2</figcaption>
+                </figure>
+
+                <figure class="galerie-item">
+                    <img src="https://via.placeholder.com/250x150"
+                        alt="Imagine 3 din galerie">
+                    <figcaption>Exemplu imagine 3</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Dacă ai întrebări sau sugestii, trimite-ne un mesaj:</p>
+
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="nume">Nume:</label>
+                    <input type="text" id="nume" name="nume" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mesaj">Mesaj:</label>
+                    <textarea id="mesaj" name="mesaj" rows="4"
+                        required></textarea>
+                </div>
+
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+
         <script src="./script.js"></script>
     </body>
 </html>

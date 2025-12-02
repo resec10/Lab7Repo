@@ -1,3 +1,40 @@
+#galerie {
+    padding: 20px;
+}
+
+.galerie-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galerie-item {
+    text-align: center;
+}
+
 h1{
     color: aqua;
+}
+
+#contact {
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 6px;
+    box-sizing: border-box;
 }
